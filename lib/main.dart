@@ -98,10 +98,10 @@ class WeatherScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      weatherColumn("Now", Icons.ac_unit, "28°C", Icons.wind_power, "10 km/h", Icons.umbrella, "0%"),
-                      weatherColumn("17.00", Icons.ac_unit, "28°C", Icons.wind_power, "10 km/h", Icons.umbrella, "0%"),
-                      weatherColumn("20.00", Icons.ac_unit, "28°C", Icons.wind_power, "10 km/h", Icons.umbrella, "0%"),
-                      weatherColumn("23.00", Icons.ac_unit, "28°C", Icons.wind_power, "10 km/h", Icons.umbrella, "0%"),
+                      weatherColumn("Now", Icons.ac_unit, "28°C", Icons.wind_power, "10 km/h", Icons.umbrella, "0 %"),
+                      weatherColumn("17.00", Icons.ac_unit, "28°C", Icons.wind_power, "10 km/h", Icons.umbrella, "0 %"),
+                      weatherColumn("20.00", Icons.ac_unit, "28°C", Icons.wind_power, "10 km/h", Icons.umbrella, "0 %"),
+                      weatherColumn("23.00", Icons.ac_unit, "28°C", Icons.wind_power, "10 km/h", Icons.umbrella, "0 %"),
                     ],
                   ),
                 ],
